@@ -3,20 +3,20 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "favicon.png": "5dcef449791fa27946b3d35ad8803796",
-"version.json": "0bc510ea9bba8664f1bcae52f6574147",
-"icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
-"icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"manifest.json": "17e9a4d06c752343ce5b212d347e9411",
-"main.dart.js": "ce75a6ff1c442f2b2ec30ea9218f3af1",
-"assets/NOTICES": "1760376618f7f59a25f902366944733f",
-"assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
-"assets/AssetManifest.json": "7fcba85d04f0901da40a7afcd2d6bbb7",
-"assets/assets/logo.svg": "1dc45e702b926d324c0bc05488a0637d",
+  "assets/assets/logo.svg": "1dc45e702b926d324c0bc05488a0637d",
 "assets/assets/logo.png": "abf201e1fe96d687cc7c23beb78523d2",
+"assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
 "assets/FontManifest.json": "7b2a36307916a9721811788013e65289",
-"index.html": "f88bc7f0a46687fc910984f946bf36b7",
-"/": "f88bc7f0a46687fc910984f946bf36b7"
+"assets/AssetManifest.json": "7fcba85d04f0901da40a7afcd2d6bbb7",
+"assets/NOTICES": "0a850e2ba405f7451a75656a19286fc9",
+"icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
+"icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
+"favicon.png": "5dcef449791fa27946b3d35ad8803796",
+"version.json": "0bc510ea9bba8664f1bcae52f6574147",
+"manifest.json": "17e9a4d06c752343ce5b212d347e9411",
+"main.dart.js": "af6678dc7b24ff8b51e4dfe059835330",
+"index.html": "c5334951571ea40b85d6fb11708411cb",
+"/": "c5334951571ea40b85d6fb11708411cb"
 };
 
 // The application shell files that are downloaded before a service worker can
@@ -34,7 +34,7 @@ self.addEventListener("install", (event) => {
   return event.waitUntil(
     caches.open(TEMP).then((cache) => {
       return cache.addAll(
-        CORE.map((value) => new Request(value + '?revision=' + RESOURCES[value], {'cache': 'reload'})));
+        CORE.map((value) => new Request(value, {'cache': 'reload'})));
     })
   );
 });
