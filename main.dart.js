@@ -48307,7 +48307,7 @@ F.yT.prototype={
 W(a,b){return new S.qc(new F.yU(null),"Kotlin Meetup",null)}}
 F.yU.prototype={
 W(a,b){var s=null,r=t._,q=T.qX(T.ng(C.fJ,H.b([T.zU(0,new U.pL(M.af9(s,s,new L.oM("assets/logo.png",s,s)),s),s,s,s,s,s,s)],r),C.bN,C.b4)),p=T.qX(Z.a5l(C.cD,0.8,C.wq,0,27,0.4,1.1,0.9,C.ff,0.95,0.2,0.13)),o=T.qX(Z.a5l(C.cD,0.49,C.BR,2,27,1,0.01,0.6,C.ff,0.24,0.3,0.13)),n=T.qX(new F.w9(s)),m=new F.BE(P.be(0,0,0),s),l=Date.now()
-m.c=P.be(0,0,C.f.aq(P.be(0,P.ado("2021-05-19 17:03:00").a-l,0).a,1e6))
+m.c=P.be(0,0,C.f.aq(P.be(0,P.ado("2021-11-17 18:32:00").a-l,0).a,1e6))
 return T.ng(C.ba,H.b([q,p,o,n,T.qX(m)],r),C.bN,C.b4)}}
 F.BE.prototype={
 S2(){var s=null
