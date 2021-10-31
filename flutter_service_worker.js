@@ -6,17 +6,17 @@ const RESOURCES = {
   "version.json": "0bc510ea9bba8664f1bcae52f6574147",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
-"assets/NOTICES": "055b2fdea1a7100894f0fd1fe5a81bc5",
+"assets/NOTICES": "303c8e3beb6c2021642aba08b9866d16",
 "assets/assets/logo.png": "abf201e1fe96d687cc7c23beb78523d2",
-"assets/assets/logo.svg": "1dc45e702b926d324c0bc05488a0637d",
+"assets/assets/logov2.png": "7ca590d9a2289f5908d84447d2393768",
 "assets/FontManifest.json": "7b2a36307916a9721811788013e65289",
-"assets/AssetManifest.json": "7fcba85d04f0901da40a7afcd2d6bbb7",
+"assets/AssetManifest.json": "25ac178c9a2f0081a16b5a475064f81b",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"main.dart.js": "5328022d38715c961397a76f3a9cf9aa",
+"main.dart.js": "dc16e0c0a4aba6388550eed7622d52a8",
 "manifest.json": "17e9a4d06c752343ce5b212d347e9411",
-"index.html": "54f5b6e57408ae1ab6ebc969cf2043b6",
-"/": "54f5b6e57408ae1ab6ebc969cf2043b6"
+"index.html": "040090f3f943cf2c63f0e2d5d4167d7b",
+"/": "040090f3f943cf2c63f0e2d5d4167d7b"
 };
 
 // The application shell files that are downloaded before a service worker can
