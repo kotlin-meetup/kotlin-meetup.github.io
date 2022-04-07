@@ -47688,7 +47688,7 @@ $0(){},
 $S:6}
 A.wc.prototype={
 P(a,b){var s=null
-return A.a_7(A.rX("Online Kotlin Meetup Rhein Main // 7.4.2022 // 18:30-19:30 Uhr // Building web applications with Ktor and Exposed - Anton Arhipov - Jet Brains",A.kH(s,s,B.i,s,B.e,s,s,s,s,s,s,s,s,B.b3,s,s,!0,s,s,s,s,s,s,s,s),B.bu,s,1),s,s)}}
+return A.a_7(A.rX("Online Kotlin Meetup Rhein Main // 7.4.2022 // 18:30-19:30 Uhr // Building web applications with Ktor and Exposed - Anton Arhipov @ JetBrains",A.kH(s,s,B.i,s,B.e,s,s,s,s,s,s,s,s,B.b3,s,s,!0,s,s,s,s,s,s,s,s),B.bu,s,1),s,s)}}
 A.vN.prototype={
 NI(a,b){var s,r=this.Nj(!1)
 r.dJ()
